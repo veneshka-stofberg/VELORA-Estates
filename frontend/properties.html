@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the VELORA Estates demonstration collection of exceptional residences.">
+  <title>Our Collection | VELORA Estates</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/properties.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header scrolled" id="header">
+    <a class="logo" href="index.html">VELORA <span>ESTATES</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false"
+      aria-controls="navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="properties.html" aria-current="page">Properties</a>
+      <a href="index.html#about">Our Story</a>
+      <a href="index.html#contact" class="nav-contact">Enquire Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="collection-hero">
+      <div class="collection-hero-overlay"></div>
+      <div class="collection-hero-content">
+        <p class="eyebrow">THE VELORA COLLECTION</p>
+        <h1>Extraordinary <em>Living.</em></h1>
+        <p>A curated showcase of architectural excellence.</p>
+      </div>
+    </section>
+
+    <section class="collection-section section-padding">
+      <div class="section-label">
+        <span class="label-line"></span>
+        DISCOVER YOUR RESIDENCE
+      </div>
+
+      <div class="collection-intro">
+        <h2 class="section-title">Explore the <em>Collection.</em></h2>
+        <p>
+          Find the residence that reflects your vision
+          of exceptional living.
+        </p>
+      </div>
+
+      <div class="filter-panel">
+        <div class="filter-field search-field">
+          <label for="searchInput">SEARCH LOCATION OR NAME</label>
+          <input id="searchInput" type="search"
+                 placeholder="e.g. Sandton, Aurelia">
+        </div>
+
+        <div class="filter-field">
+          <label for="typeFilter">PROPERTY TYPE</label>
+          <select id="typeFilter">
+            <option value="">All Types</option>
+            <option value="Villa">Villa</option>
+            <option value="House">House</option>
+            <option value="Penthouse">Penthouse</option>
+            <option value="Apartment">Apartment</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="priceFilter">MAXIMUM PRICE</label>
+          <select id="priceFilter">
+            <option value="">Any Price</option>
+            <option value="5000000">R5 Million</option>
+            <option value="10000000">R10 Million</option>
+            <option value="15000000">R15 Million</option>
+            <option value="20000000">R20 Million</option>
+            <option value="25000000">R25 Million</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="bedFilter">MINIMUM BEDROOMS</label>
+          <select id="bedFilter">
+            <option value="">Any</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+            <option value="5">5+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="listing-toolbar">
+        <p id="resultCount" role="status" aria-live="polite">
+          Loading residences...
+        </p>
+        <button id="resetFilters" class="reset-button">
+          CLEAR FILTERS ↗
+        </button>
+      </div>
+
+      <div class="listing-grid" id="listingGrid"></div>
+
+      <p class="demo-note">
+        All properties, prices and specifications are fictional
+        demonstration data. Photographs are illustrative.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">VELORA <span>ESTATES</span></div>
+        <p>Extraordinary spaces. Exceptional living.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="index.html#about">Our Story</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> VELORA Estates. Portfolio concept.</span>
+      <span>CRAFTED FOR EXCEPTIONAL LIVING</span>
+    </div>
+  </footer>
+</body>
+</html>

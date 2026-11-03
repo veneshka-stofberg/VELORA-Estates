@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VELORA Estates — an exclusive collection of exceptional residences.">
+  <title>VELORA Estates | Exceptional Living</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <script src="js/properties.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header" id="header">
+    <a class="logo" href="#home" aria-label="VELORA Estates home">
+      VELORA <span>ESTATES</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false"
+      aria-controls="navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="properties.html">Properties</a>
+      <a href="#about">Our Story</a>
+      <a href="#contact" class="nav-contact">Enquire Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- CINEMATIC HERO -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow reveal">AN EXCLUSIVE COLLECTION</p>
+
+        <h1 class="reveal">
+          Where Architecture<br>
+          Meets <em>Extraordinary.</em>
+        </h1>
+
+        <p class="hero-description reveal">
+          Discover remarkable residences, thoughtfully curated
+          for those who appreciate exceptional living.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="properties.html" class="btn btn-gold">
+            Explore Properties <span aria-hidden="true">↗</span>
+          </a>
+          <a href="#about" class="text-link">Discover VELORA</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>CURATED LUXURY REAL ESTATE</span>
+        <a href="#properties">SCROLL TO EXPLORE ↓</a>
+      </div>
+    </section>
+
+    <!-- OUR PHILOSOPHY -->
+    <section class="intro section-padding" id="about">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        THE VELORA PHILOSOPHY
+      </div>
+
+      <div class="intro-grid">
+        <h2 class="section-title reveal">
+          More than a home.<br>
+          <em>A way of life.</em>
+        </h2>
+
+        <div class="intro-copy reveal">
+          <p>
+            We believe the finest properties are more than
+            extraordinary spaces. They are places where
+            architecture, atmosphere and lifestyle become one.
+          </p>
+
+          <p>
+            VELORA Estates presents a carefully selected
+            collection of distinctive residences, celebrating
+            exceptional design and timeless elegance.
+          </p>
+
+          <a href="#contact" class="underlined-link">
+            Connect With Us <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROPERTIES -->
+    <section class="properties section-padding" id="properties">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-label">
+            <span class="label-line"></span>
+            THE COLLECTION
+          </div>
+
+          <h2 class="section-title">
+            Exceptional <em>Residences.</em>
+          </h2>
+        </div>
+
+        <p>
+          Explore our showcase of distinctive architectural
+          spaces and inspired living.
+        </p>
+      </div>
+
+      <div class="property-grid">
+
+        <article class="property-card reveal">
+          <a href="property.html?id=1" class="featured-card-link">
+            <div class="property-image">
+              <img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+                alt="The Aurelia Residence illustrative property photograph"
+                loading="lazy">
+              <span class="property-tag">FEATURED</span>
+            </div>
+
+            <div class="property-info">
+              <span class="property-location">SANDTON, JOHANNESBURG</span>
+              <h3>The Aurelia Residence</h3>
+              <p>Contemporary architecture, refined living.</p>
+              <span class="property-link">DISCOVER RESIDENCE ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="property-card reveal">
+          <a href="property.html?id=2" class="featured-card-link">
+            <div class="property-image">
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
+                alt="Maison Solenne illustrative property photograph"
+                loading="lazy">
+              <span class="property-tag">EXCLUSIVE</span>
+            </div>
+
+            <div class="property-info">
+              <span class="property-location">CAPE TOWN, WESTERN CAPE</span>
+              <h3>Maison Solenne</h3>
+              <p>A timeless expression of understated luxury.</p>
+              <span class="property-link">DISCOVER RESIDENCE ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="property-card reveal">
+          <a href="property.html?id=3" class="featured-card-link">
+            <div class="property-image">
+              <img
+                src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85"
+                alt="The Elara Estate illustrative property photograph"
+                loading="lazy">
+              <span class="property-tag">CURATED</span>
+            </div>
+
+            <div class="property-info">
+              <span class="property-location">UMHLANGA, DURBAN</span>
+              <h3>The Elara Estate</h3>
+              <p>Designed for an extraordinary lifestyle.</p>
+              <span class="property-link">DISCOVER RESIDENCE ↗</span>
+            </div>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="collection-cta">
+        <a href="properties.html" class="btn btn-dark">
+          VIEW ALL RESIDENCES ↗
+        </a>
+      </div>
+
+      <p class="demo-note">
+        Concept residences shown for portfolio demonstration purposes.
+        All listings and prices are fictional.
+      </p>
+    </section>
+
+    <!-- LIFESTYLE -->
+    <section class="experience">
+      <div class="experience-image"></div>
+      <div class="experience-shade"></div>
+
+      <div class="experience-content reveal">
+        <p class="eyebrow">THE ART OF LIVING</p>
+
+        <h2>
+          Every Detail.<br>
+          <em>Considered.</em>
+        </h2>
+
+        <p>
+          A home should be as remarkable as the life lived within it.
+        </p>
+
+        <a href="properties.html" class="btn btn-gold">
+          Explore The Collection ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-padding" id="contact">
+      <div class="section-label reveal">
+        <span class="label-line"></span>
+        PRIVATE ENQUIRIES
+      </div>
+
+      <h2 class="section-title reveal">
+        Your next chapter<br>
+        <em>begins here.</em>
+      </h2>
+
+      <p class="reveal">
+        Explore the possibilities of extraordinary living.
+        Our dedicated experience begins with a conversation.
+      </p>
+
+      <a href="mailto:hello@example.com?subject=VELORA%20Estates%20Enquiry"
+         class="btn btn-dark reveal">
+        Make an Enquiry ↗
+      </a>
+
+      <p class="demo-note">
+        Demonstration contact address — replace before launch.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          VELORA <span>ESTATES</span>
+        </div>
+        <p>Extraordinary spaces. Exceptional living.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="properties.html">Properties</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> VELORA Estates. Portfolio concept.</span>
+      <span>CRAFTED FOR EXCEPTIONAL LIVING</span>
+    </div>
+  </footer>
+
+</body>
+</html>
